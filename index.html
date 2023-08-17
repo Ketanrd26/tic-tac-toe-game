@@ -7,24 +7,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-      <div class="main">
-        <div class="header">
-            <h3>let's play the game</h3>
-            <button onclick="clearAll()" class="restBtn">restart</button>
-        </div>
-        <div class="conatiner">
-            <div class="box" onclick="pressBtn()" id="0"></div>
-            <div class="box" onclick="pressBtn()" id="1"></div>
-            <div class="box" onclick="pressBtn()" id="2"></div>
-            <div class="box" onclick="pressBtn()" id="3"></div>
-            <div class="box" onclick="pressBtn()" id="4"></div>
-            <div class="box" onclick="pressBtn()" id="5"></div>
-            <div class="box" onclick="pressBtn()" id="6"></div>
-            <div class="box" onclick="pressBtn()" id="7"></div>
-            <div class="box" onclick="pressBtn()" id="8"></div>
-        </div>
+    <div class="main">
+        <h1 class="header-text">Let's play</h1>
+        <button id="resetBtn" onclick="reset()">Reset</button>
+        <div class="container">
+            <div class="box" onclick="blindClick()" id="0" style="border-left: 0; border-top: 0;"></div>
+            <div class="box" onclick="blindClick()" id="1" style="border-top: 0;"></div>
+            <div class="box" onclick="blindClick()" id="2" style="border-right: 0; border-top: 0;"></div>
+            <div class="box" onclick="blindClick()" id="3" style="border-left: 0;"></div>
+            <div class="box" onclick="blindClick()" id="4"></div>
+            <div class="box" onclick="blindClick()" id="5" style="border-right: 0;"></div>
+            <div class="box" onclick="blindClick()" id="6" style="border-bottom: 0; border-left: 0;"></div>
+            <div class="box" onclick="blindClick()" id="7" style="border-bottom: 0;"></div>
+            <div class="box" onclick="blindClick()" id="8" style="border-bottom: 0; border-right: 0;"></div>
+        </div> <br><br>
         <p id="p1"></p>
-      </div>
+    </div>
+    
+
+
     <script src="index.js"></script>
 </body>
 </html>
