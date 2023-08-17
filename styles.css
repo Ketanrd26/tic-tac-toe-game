@@ -1,0 +1,50 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 100px;
+    text-transform: capitalize;
+}
+.restBtn{  
+    height: 30px;
+    width: 60px;
+    color: white;
+    background-color: darkgrey;
+    border-radius: 5px;
+    margin-left: 48%;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.conatiner{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-family: sans-serif;
+    
+}
